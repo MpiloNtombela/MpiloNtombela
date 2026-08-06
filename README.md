@@ -3,7 +3,8 @@
 ### Hi there 👋, my name is Mpilo Ntombela
 #### Software Developer | Full Stack Developer
 
-![I am a software developer based in South Africa](https://mpilontombela.github.io/readme-banner/Mpilo%20Ntombela-light.png)
+<img width="1584" height="396" alt="image" src="https://github.com/user-attachments/assets/f0e1e22d-896c-4f07-91c0-58cd8c1a0476" />
+
 
 </div>
 
