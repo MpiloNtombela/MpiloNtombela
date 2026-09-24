@@ -69,9 +69,9 @@ I love working with TypeScript, React ecosystem, and creating practical solution
 
 <div align="center">
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=mpilontombela&show_icons=true&theme=transparent&hide_border=true&count_private=true&bg_color=00000000)
+![GitHub stats](https://github-stats-extended.vercel.app/api?username=mpilontombela&show_icons=true&theme=transparent&hide_border=true&count_private=true&bg_color=00000000)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mpilontombela&layout=compact&theme=transparent&hide_border=true&bg_color=00000000)
+![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=mpilontombela&layout=compact&theme=transparent&hide_border=true&bg_color=00000000)
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=mpilontombela&theme=transparent&hide_border=true&background=00000000&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff)
 
