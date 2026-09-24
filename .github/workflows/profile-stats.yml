@@ -1,0 +1,51 @@
+name: Generate profile stats
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # twice a day
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  languages:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      # Top languages across all repos (including private) - needs METRICS_TOKEN
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: output
+          base: ""
+          config_display: columns
+          plugin_languages: yes
+          plugin_languages_limit: 12
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_sections: most-used
+          plugin_languages_ignored: html, css, dockerfile, shell, makefile, batchfile, powershell
+          plugin_languages_indepth: no
+
+  activity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # 3D contribution calendar, replaces the hosted activity graph
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: profile-3d-contrib
+          keep_history: true
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

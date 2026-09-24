@@ -51,7 +51,8 @@ I'm a **software developer based in South Africa 🇿🇦** focused on modern we
 <div align="center">
 
 <img height="165" src="https://github-stats-extended.vercel.app/api?username=mpilontombela&show_icons=true&theme=transparent&hide_border=true&count_private=true&bg_color=00000000&title_color=58a6ff&icon_color=58a6ff" alt="GitHub stats" />
-<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=mpilontombela&layout=compact&theme=transparent&hide_border=true&bg_color=00000000&title_color=58a6ff" alt="Top languages" />
+
+<img src="https://raw.githubusercontent.com/mpilontombela/mpilontombela/output/metrics.languages.svg" alt="Top languages" />
 
 <img src="https://streak-stats.demolab.com/?user=mpilontombela&theme=transparent&hide_border=true&background=00000000&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub streak" />
 
@@ -60,9 +61,6 @@ I'm a **software developer based in South Africa 🇿🇦** focused on modern we
 <br/>
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mpilontombela&theme=transparent" alt="Profile details" />
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mpilontombela&theme=transparent" alt="Repos per language" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mpilontombela&theme=transparent" alt="Most commit language" />
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mpilontombela&theme=transparent" alt="Stats" />
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mpilontombela&theme=transparent&utcOffset=2" alt="Productive time" />
@@ -77,7 +75,11 @@ I'm a **software developer based in South Africa 🇿🇦** focused on modern we
 
 <div align="center">
 
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=mpilontombela&theme=github-compact&hide_border=true&bg_color=00000000&color=58a6ff&line=58a6ff&point=f0f6fc)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mpilontombela/mpilontombela/output/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mpilontombela/mpilontombela/output/profile-season-animate.svg" />
+  <img alt="3D contribution calendar" src="https://raw.githubusercontent.com/mpilontombela/mpilontombela/output/profile-night-rainbow.svg" />
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mpilontombela/mpilontombela/output/github-snake-dark.svg" />

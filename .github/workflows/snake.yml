@@ -26,5 +26,6 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
+          keep_history: true # don't wipe the other generated files
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
